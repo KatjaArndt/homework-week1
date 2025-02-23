@@ -1,9 +1,8 @@
 /*wenn select element ausgewählt wird */
-
+let cities = document.querySelector("#cities");
 function selection() {
-  let cities = document.querySelector("#cities");
-  let selectedCity = cities.options[cities.selectedIndex];
-  console.log(selectedCity);
+  let selectedCity = cities.value;
+  alert(selectedCity);
 }
 let select = cities.addEventListener("change", selection);
 
