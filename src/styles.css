@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  margin: 50px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-attachment: fixed;
+}
+
+.form-select-lg {
+  margin: 50px;
+  width: 50%;
+}
